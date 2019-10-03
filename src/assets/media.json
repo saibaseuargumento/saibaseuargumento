@@ -1,0 +1,92 @@
+[
+  {
+    "etapa": 1,
+    "parte": "Espanhol",
+    "media": 4.6062,
+    "dp": 2.2334
+  },
+  {
+    "etapa": 1,
+    "parte": "Frances",
+    "media": 4.3814,
+    "dp": 2.6254
+  },
+  {
+    "etapa": 1,
+    "parte": "Ingles",
+    "media": 3.9018,
+    "dp": 2.663
+  },
+  {
+    "etapa": 1,
+    "parte": "parte 2",
+    "media": 22.9034,
+    "dp": 13.3954
+  },
+  {
+    "etapa": 1,
+    "parte": "Redação",
+    "media": 6.0424,
+    "dp": 2.4818
+  },
+  {
+    "etapa": 2,
+    "parte": "Espanhol",
+    "media": 3.9172,
+    "dp": 2.1492
+  },
+  {
+    "etapa": 2,
+    "parte": "Frances",
+    "media": 4.2744,
+    "dp": 2.4718
+  },
+  {
+    "etapa": 2,
+    "parte": "Ingles",
+    "media": 4.24,
+    "dp": 2.8008
+  },
+  {
+    "etapa": 2,
+    "parte": "parte 2",
+    "media": 20.8452,
+    "dp": 11.9366
+  },
+  {
+    "etapa": 2,
+    "parte": "Redação",
+    "media": 6.4918,
+    "dp": 1.8232
+  },
+  {
+    "etapa": 3,
+    "parte": "Espanhol",
+    "media": 3.3186,
+    "dp": 1.705
+  },
+  {
+    "etapa": 3,
+    "parte": "Frances",
+    "media": 3.3814,
+    "dp": 1.9294
+  },
+  {
+    "etapa": 3,
+    "parte": "Ingles",
+    "media": 4.5212,
+    "dp": 2.0208
+  },
+  {
+    "etapa": 3,
+    "parte": "parte 2",
+    "media": 24.9652,
+    "dp": 13.417
+  },
+  {
+    "etapa": 3,
+    "parte": "Redação",
+    "media": 6.7622,
+    "dp": 1.7032
+  }
+]
