@@ -50,8 +50,6 @@
         </v-card>
 
         <v-btn color="primary" @click="e1 = 2">Continue</v-btn>
-
-        <v-btn flat>Cancel</v-btn>
       </v-stepper-content>
 
       <v-stepper-content step="2">
@@ -89,7 +87,7 @@
           <v-card-actions>
             <v-btn color="primary" @click="e1 = 3">Continue</v-btn>
 
-            <v-btn flat @click="e1 = 1">Cancel</v-btn>
+            <v-btn flat @click="e1 = 1; zeroUser()">Cancel</v-btn>
           </v-card-actions>
 
         </v-card>
@@ -128,7 +126,7 @@
           </v-form>
           <v-card-actions>
             <v-btn color="primary" @click="e1 = 4; setScores()">Continue</v-btn>
-            <v-btn flat @click="e1 = 1">Cancel</v-btn>
+            <v-btn flat @click="e1 = 1; zeroUser()">Cancel</v-btn>
           </v-card-actions>
         </v-card>
         
@@ -142,7 +140,7 @@
           </v-card-text>
         </v-card>
 
-        <v-btn color="primary" @click="e1 = 1">Inicio</v-btn>
+        <v-btn color="primary" @click="e1 = 1; zeroUser()">Inicio</v-btn>
       </v-stepper-content>
     </v-stepper-items>
   </v-stepper>
@@ -206,6 +204,25 @@ export default class Calculator extends Vue {
     ];
   }
 
+  public zeroUser() {
+    this.user = {
+      turno: '',
+      curso: '',
+      sistema: '',
+      pas1: {
+        p1_type: Linguas.Ingles,
+        score_p1: '',
+        score_p2: '',
+        score_red: '',
+      },
+      pas2: {
+        p1_type: Linguas.Ingles,
+        score_p1: '',
+        score_p2: '',
+        score_red: '',
+      },
+    };
+  }
   public tolerantParse(word: string | number): number {
     if (typeof word === 'string') {
       if (word === '(*)') {
